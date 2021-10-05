@@ -1,4 +1,4 @@
 import requests
  
-webpage = requests.get('https://www.goldmansachs.com/')
-print(webpage.text)
+webpage_response = requests.get('https://www.goldmansachs.com/')
+print(webpage_response.text)
